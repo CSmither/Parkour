@@ -1,0 +1,10 @@
+main: com.martenm.parkour.MainClass
+version: 1.0.0
+name: Parkour
+description: An parkour plugin
+author: MartenM
+
+commands:
+  parkour:
+    description: Shows the parkour help.
+    aliases: [pk]

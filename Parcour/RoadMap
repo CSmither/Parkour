@@ -1,0 +1,18 @@
+//Plan of actions
+
+
+Making parcours and doing them could be in the same hashmap but using 2 is more convient.
+
+//Doing parcour object
+private Parcour parcour;
+private SomeTimer Timer;
+
+
+
+//Saving structure
+A file for every parcour.
+In the files or SQL
+	/UUID/Name/Time
+	
+	
+	Why did you even decompile this O.o
