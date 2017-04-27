@@ -21,6 +21,7 @@ start message: '&a&lParcour timer has started! Reach the end as fast as possible
 checkpoint message: '&e&lCheckpoint &b&l%number%&e&l reached. You can use &b&l/pk checkpoint&e&l to return to the checkpoint.'
 finish message: '&a&lYou completed the parkour with a time of &e&l%time%&a&l. Your highscore is:&e&l %highscore%&r'
 finish message highscore: '&6&lNew highscore! Your new best time now is &b&l%highscore%&6&l'
+finish message highscore server: '&e%player% has got a new highscore on %parkour%. New highscore: &a%time%' 
 
 #option to remove plates on /pk remove
 remove plates: true
