@@ -5,6 +5,7 @@ no permission: '&4Not enough permissions'
 start: '&aParcour Start'
 checkpoint: '&eCheckpoint &b%number%'
 finish: '&6&lFINISH!'
+quit: '&4You quit the parkour.'
 
 parkour closed: '&cThis parcour is currently closed :('
 no start permission: '&4Not enough permissions to start this parcour.'
