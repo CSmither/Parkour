@@ -97,7 +97,12 @@ public class OnPlayerInteractEvent implements Listener {
 												.replace("%time%", time).replace("%highscore%", time)));
 								
 								//Message the whole server
-								
+								if(!plugin.getConfig().getString("finish message highscore server").equals("")){
+									plugin.getServer().broadcastMessage(Helper.formatString(plugin, plugin.getConfig().getString("finish message highscore server"))
+											.replace("%player%" , player.getName())
+											.replace("%parkour%" , pp.getParkour().getName())
+											.replace("%time%" , time));		
+								}
 								
 								
 								return;
