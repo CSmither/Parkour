@@ -1,8 +1,8 @@
 main: com.martenm.parkour.MainClass
-version: 1.0.0
+version: 1.0.2
 name: Parkour
 description: An parkour plugin
-author: MartenM
+author: MartenM, Smither
 softdepend: [LeaderHeads]
 
 commands:

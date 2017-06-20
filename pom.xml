@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.smither</groupId>
   <artifactId>Parkour</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
 	<repositories>
 	    <repository>
 	        <id>spigot-repo</id>

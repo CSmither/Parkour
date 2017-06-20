@@ -26,10 +26,6 @@ public class LocalStorage {
 		if(!HighscoresFile.contains("highscores")) throw new IllegalArgumentException("No Parkour called "+parkour);
 		Map<String,Double> scores = new HashMap<String,Double>();
 		MemorySection highscores = (MemorySection)HighscoresFile.get("highscores");
-		MemorySection person=(MemorySection)highscores.get("b6d8ea3a-ca98-4087-aa7b-6215db6e5038");
-		String name=(String)person.get("name");
-		Bukkit.getLogger().info(name);
-		highscores.getValues(false).values();
 		Collection<Object> results=highscores.getValues(false).values();
 		for (Object result : results){
 			MemorySection player = (MemorySection)result;
